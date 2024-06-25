@@ -20,6 +20,47 @@ const Dashboard = () => {
                 <div className="card-dashboard">
                     Chamados Pendentes
                 </div>
+                <div className="dashboard-chamados">
+                <div>
+                    ID
+                </div>
+                <div>
+                    Descrição
+                </div>
+                <div>
+                    Setor
+                </div>
+                <div>
+                    Solicitante
+                </div>
+                <div>
+                    Data e Hora
+                </div>
+                <div>
+                    Prioridade
+                </div>
+                </div>
+                <div className="dashboard-chamados-pendente">
+                    <div>
+                    2077
+                    </div>
+                    <div>
+                    Troca de cadeira
+                    </div>
+                    <div>
+                    Comercial
+                    </div>
+                    <div>
+                    Caroline Aquino
+                    </div>
+                    <div>
+                    25/06/2024
+                    13:07
+                    </div>
+                    <div>
+                    Urgente
+                    </div>
+                </div>
               </div>
             </div>
         </div>

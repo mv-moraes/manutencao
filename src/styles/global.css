@@ -311,7 +311,19 @@ button {
     border-radius: 12px;
     width: 180px;
     height: 50px;
+    margin-bottom: 20px;
   }
+  .button-filtro{
+    color: var(--clr-white);
+    background-color: var(--clr-scarlet-v1);
+    border-radius: 12px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+    font-size: 18px;
+  }
+  
   .button-cadastro:hover{
     transition: 100ms linear;
     transform: scale(1.08);
@@ -395,14 +407,57 @@ button {
     background-color: var(--clr-primary-light);
     height: 70px;
     margin-top: 20px;
-    border-radius: 20px;
+    border-radius: 30px;
     align-items: center;
     display: flex;
     padding: 20px;
     color: var(--clr-white);
     font-size: 20px;
    }
-
+   .dashboard-chamados{
+    display: flex;
+    background-color: burlywood;
+    height: 40px;
+    width: 97%;
+    margin-left: 18px;
+    margin-top: 0.3px;
+    align-items: center;
+    border-radius: 8px 8px 0px 0px;
+    justify-content: space-around;
+    padding: 25px;
+    font-weight: bolder;
+   }
+   .dashboard-chamados-pendente{
+    display: flex;
+    background-color: var(--clr-white);
+    height: 40px;
+    width: 97%;
+    margin-left: 18px;
+    margin-top: 0.1px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: larger;
+     }
+     .card-ativos{
+        width: 100%;
+        background-color: var(--clr-primary-light);
+        height: 70px;
+        margin-top: 12px;
+        border-radius: 30px;
+        align-items: center;
+        display: flex;
+        padding: 20px;
+        color: var(--clr-white);
+        font-size: 20px;
+        justify-content: center;
+       }
+       .card-ativos:hover{
+        opacity: 0.4;
+        transition: 100ms linear;
+    transform: scale(1.02);
+      }
+        
   @media screen and (max-width: 992px) {
     .grid-c3 {
       grid-column-start: 1;
@@ -435,6 +490,18 @@ button {
         color: var(--clr-white);
         width: 340px;
     }
+    .card-dashboard{
+        padding: 12.5px;
+        
+       }
+       .dashboard-chamados{
+        padding: 12.5px;
+        font-size: 14px !important;
+       }
+       .dashboard-chamados-pendente{
+        padding: 12.5px;
+        font-size: 14px !important;
+         }
 }
 
 @media screen and (max-width: 1200px){
@@ -481,6 +548,18 @@ button {
     .content-grid-one, .content-grid-two {
         column-gap: 12px;
     }
+    .card-dashboard{
+        padding: 6.025px;
+      
+       }
+       .dashboard-chamados{
+        padding: 6.025px;
+        font-size: 14px !important;
+       }
+       .dashboard-chamados-pendente{
+        padding: 6.025px;
+        font-size: 14px !important;
+         }
 }
 
 @media screen and(max-width: 420px){
@@ -490,6 +569,19 @@ button {
     .sidebar-change{
         margin-left: 0;
     }
+    .card-dashboard{
+        padding: 6.025px;
+      
+       }
+       .dashboard-chamados{
+        padding: 6.025px;
+        font-size: 10px !important;
+       }
+       .dashboard-chamados-pendente{
+        padding: 6.025px;
+        font-size: 10px !important;
+         }
+    
 }
 @media screen and (max-width: 992px) {
     .grid-c3 {
@@ -501,6 +593,37 @@ button {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 12px;
     }
+    .card-ativos{
+        height: 60px;
+        margin-top: 10px;
+        padding: 20px;
+        font-size: 14px !important;
+       }
+    
+}
+@media screen and (max-width: 710px) {
+.card-dashboard{
+    padding: 20px;
+    display: none;
+   }
+   .dashboard-chamados{
+    padding: 3.025px;
+    font-size: 10px !important;
+    margin: 0;
+    display: none;
+   }
+   .dashboard-chamados-pendente{
+    margin: 0;
+    padding: 7.025px;
+    font-size: 10px !important;
+    display: none;
+     }
+     .card-ativos{
+        height: 40px;
+        margin-top: 10px;
+        padding: 20px;
+        font-size: 14px !important;
+       }
 }
 .app{
     display: flex;
